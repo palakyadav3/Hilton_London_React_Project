@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(228, 190, 144, 0.736);
+
+}
+
+.logo{
+    width: 150px;
+    /* background-color: rgb(238, 217, 195); */
+    padding: 5px;
+    /* border-radius:20px ; */
+}
+.nav{
+    display: flex;
+}
+
+.nav>ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav>ul>li{
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav>ul>li:hover{
+    color: rgb(241, 43, 188);
+}
+
+.bgImage{
+    background-image: url(https://wi-q.cloud/b0a747e4-b654-4b66-b958-06e3cb2b722a/asset/f697e069-8b79-4d12-ba2b-f0eb63ff2642.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;   
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100vw;
+
+}
