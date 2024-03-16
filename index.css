@@ -1,8 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 .header{
@@ -146,8 +145,23 @@
 .styleItem:nth-child(odd)>h2{
     box-shadow: -10px 1px 20px rgba(0, 0, 0, 0.881) ;
 }
-
 .content{
     padding-top: 5px;
     min-height: calc(100vh - 300px);
+}
+.mainBookRoom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.bookRoom{
+    min-width: 500px;
+    min-height: 300px;
+    border-radius: 20px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
