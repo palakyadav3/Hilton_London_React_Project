@@ -7,17 +7,17 @@ const Footer=()=>{
             <img src="https://wi-q.cloud/i/400x,q95/b0a747e4-b654-4b66-b958-06e3cb2b722a/asset/65c8fc53-7795-44ae-81c1-446915b74071.png" alt="" />
              <div>
                 <h3>Booking App</h3>
-                <h4> <Link to="/"> Home </Link></h4>
+                <h4> <Link to="/" className="linkDecor"> Home </Link></h4>
                 <h4>About Us</h4>
-                <h4> <Link to="/contact"> Contact Us</Link></h4>
+                <h4> <Link to="/contact" className="linkDecor"> Contact Us</Link></h4>
                 <h4>Career</h4>
                 <h4></h4>
              </div>
              <div>
                 <h3>Discover</h3>
-                <h4><Link to="/room-booking"> Rooms Booking</Link></h4>
+                <h4><Link to="/room-booking" className="linkDecor"> Rooms Booking</Link></h4>
                 <h4>Our Restaurants</h4>
-                <h4>Explore Places</h4>
+                <h4> <Link to="/explore-destination" className="linkDecor">Explore Places </Link></h4>
              </div>
              </div>
              <div className="footerDetails last">
