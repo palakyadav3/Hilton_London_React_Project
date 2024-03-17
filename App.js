@@ -7,6 +7,9 @@ import {createBrowserRouter, Outlet, RouterProvider} from "react-router-dom";
 import Contact from "./src/components/Contact";
 import Privacy from "./src/components/Privacy";
 import ExploreRooms from "./src/components/ExploreRooms";
+import Calendar1 from "./src/components/Calendar";
+import ExploreDestination from "./src/components/ExploreDestination";
+
 
 const AppLayout=()=>{
     return (
@@ -39,6 +42,10 @@ const appRouter=createBrowserRouter([
             {
                 path:"/room-booking",
                 element:<ExploreRooms/>
+            },
+            {
+                path:"/explore-destination",
+                element:<ExploreDestination/>
             }
             
 
@@ -48,3 +55,4 @@ const appRouter=createBrowserRouter([
 
 const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={appRouter}/>)
+// root.render(<Calendar1/>)
